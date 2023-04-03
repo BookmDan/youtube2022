@@ -26,6 +26,11 @@ const Messages = () => {
       <Message />
       <Message />
       <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
       {/* {messages.map((m) => (
         <Message message={m} key={m.id} />
       ))} */}
