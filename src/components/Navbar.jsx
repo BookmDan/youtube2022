@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import ninjaProfile from "../img/ninja.png";
+import Ninja from "../img/ninja.png";
 // import {signOut} from "firebase/auth"
 // import { auth } from '../firebase'
 // import { AuthContext } from '../context/AuthContext'
@@ -9,9 +9,9 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <span className="logo">PeopleWelcome | Chats</span>
+      <span className="logo">Chats</span>
       <div className="user">
-        <img src={ninjaProfile} alt="" />
+        <img src={Ninja} alt="ninja.png" />
         <span> Daniel</span>
         <button>logout</button>
         {/* <img src={currentUser.photoURL} alt="" />

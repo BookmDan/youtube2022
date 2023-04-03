@@ -80,14 +80,16 @@ const Search = () => {
   return (
     <div className="search">
       <div className="searchForm">
-        <img src={search} alt=""/>
-        <input
+        <div className="searchIcon">
+          <img src={search} alt="" />
+          <input
           type="text"
           placeholder="Find a user"
           // onKeyDown={handleKey}
           // onChange={(e) => setUsername(e.target.value)}
           // value={username}
         />
+        </div>
         <div className="userChat">
           <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/dde4f8d1-beeb-4575-87e9-471821d4fed3-profile_image-70x70.png" alt="" />
       
