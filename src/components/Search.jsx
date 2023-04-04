@@ -91,7 +91,7 @@ const Search = () => {
         />
         </div>
         <div className="userChat">
-          <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/dde4f8d1-beeb-4575-87e9-471821d4fed3-profile_image-70x70.png" alt="" />
+          <img src="https://media.licdn.com/dms/image/C5603AQF6C2Ua_S1hCQ/profile-displayphoto-shrink_200_200/0/1652992176979?e=1686182400&v=beta&t=yYxhuaJbAnbUYhbLedzDPLnuIMzCrCPe-2qt8MoggwM" alt="" />
       
           <div className="userChatInfo">
             <span>Jane</span>

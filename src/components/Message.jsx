@@ -4,7 +4,7 @@ const Message = () => {
   return (
     <div className="message owner">
        <div className="messageInfo">
-         <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/538c58a6-11cb-4f09-9aba-03c92af4ec1b-profile_image-70x70.png" alt="" />
+        <img src="https://media.licdn.com/dms/image/C4E03AQFG784sIRyt3w/profile-displayphoto-shrink_100_100/0/1663947138226?e=1686182400&v=beta&t=sJMDRtQ2gfJ2ZzUhRU0K4IAHljZyKix_WEoNOgZ0RE0" alt="" />
          <span>just now</span>
        </div>
       <div className="messageContent">
