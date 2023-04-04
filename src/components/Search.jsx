@@ -64,6 +64,7 @@ const Search = () => {
           [combinedId + ".date"]: serverTimestamp(),
         });
 
+        // for other user 
         await updateDoc(doc(db, "userChats", user.uid), {
           [combinedId + ".userInfo"]: {
             uid: currentUser.uid,
