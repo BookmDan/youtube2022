@@ -10,7 +10,7 @@ import { AuthContext } from './context/AuthContext';
 function App() {
   const { currentUser } = useContext(AuthContext);
   // if user or not, navigate to login
-  const ProtecteRoute = ({ children }) => {
+  const ProtectedRoute = ({ children }) => {
     if (!currentUser) {
       return <Navigate to="/login"/>
     }
@@ -22,31 +22,14 @@ function App() {
       <Routes>
         <Route path = "/">
           <Route index element={
-          <ProtecteRoute>
+          <ProtectedRoute>
             <Home />
-          </ProtecteRoute>}/>
+          </ProtectedRoute>}/>
           <Route path = "login" element={<Login />}/>
           <Route path = "register" element={<Register />}/>
         </Route>
       </Routes>
     </BrowserRouter>
-
-  //   <BrowserRouter>
-  //   <Routes>
-  //     <Route path="/">
-  //       <Route
-  //         index
-  //         element={
-  //           // <ProtectedRoute>
-  //             <Home />
-  //           // </ProtectedRoute>
-  //         }
-  //       />
-  //       <Route path="login" element={<Login />} />
-  //       <Route path="register" element={<Register />} />
-  //     </Route>
-  //   </Routes>
-  // </BrowserRouter>
   );
 }
 
