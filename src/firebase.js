@@ -6,13 +6,13 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBpiy9QLanB0VVJBXxzLxrHFGEhGgXvdtM",//process.env.REACT_APP_FIREBASE_KEY,
-  authDomain: "message-eb542.firebaseapp.com",
-  projectId: "message-eb542",
-  storageBucket: "message-eb542.appspot.com",
-  messagingSenderId: "817036030666",
-  appId: "1:817036030666:web:fa7239b6ff9662a2f53a33",
-  measurementId: "G-MQSFL7T7YC"
+  apiKey: process.env.REACT_APP_FIREBASE_KEY,
+  authDomain: "messageindiv.firebaseapp.com",
+  projectId: "messageindiv",
+  storageBucket: "messageindiv.appspot.com",
+  messagingSenderId: "404430987356",
+  appId: "1:404430987356:web:482fee1e1338190a5fc699",
+  measurementId: "G-35H2VKH7QT"
 };
 
 // Initialize Firebase
